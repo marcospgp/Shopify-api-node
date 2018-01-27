@@ -28,7 +28,7 @@ configuration options.
 
 #### Options
 
-- `shopName` - Required - A string that specifies the shop name.
+- `shopName` - Required - A string that specifies the shop name (not the url - the ".myshopify.com" suffix is added for you).
 - `apiKey` - Required for [private][generate-private-app-credentials] apps - A
   string that specifies the API key of the app. This option must be used in
   conjunction with the `password` option and is mutually exclusive with the
